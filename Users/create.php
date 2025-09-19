@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <h4>name of product</h4>
         <input type="text" name="name" placeholder="name" required> <br>
         <h4>price of product</h4>
-        <input type="number" name="price" placeholder="price" min="0.01" required> <br>
+        <input type="number" name="price" placeholder="price" min="0.01" max="9999.99" required> <br>
         <h4>stock of product</h4>
         <input type="number" name="stock" placeholder="stock" required> <br>
         <button type="submit">Create</button> <br>
